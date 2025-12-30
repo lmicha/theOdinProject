@@ -16,7 +16,7 @@ pipeline {
 
         stage('Lint CSS') {
             steps {
-                sh 'npx stylelint "./**/.css"'
+                sh 'npx stylelint "./**/*.css"'
             }
         }
 
