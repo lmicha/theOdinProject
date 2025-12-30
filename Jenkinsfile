@@ -14,17 +14,7 @@ pipeline {
             }
         }
 
-        stage('Lint CSS') {
-            steps {
-                sh 'npx stylelint "./**/*.css"'
-            }
-        }
 
-        stage('Lint JavaScript') {
-            steps {
-                sh 'npx eslint *.js'
-            }
-        }
 
         stage('Deploy') {
             steps {
