@@ -1,0 +1,14 @@
+/* groupSelectorCSS.css*/
+
+.read,
+.unread {
+    background-color: yellowgreen;
+}
+
+.read {
+    color: blue;
+}
+
+.unread {
+    color:red;
+}
