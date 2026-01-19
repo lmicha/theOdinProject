@@ -1,0 +1,19 @@
+.hex {
+    color: #1100ff;
+}
+
+.rbg {
+    color:rgb(100,0,127)
+}
+
+.hsl {
+    color: hsl(15, 82%, 56%);
+}
+
+.fontTimesNewRoman {
+    font-family: "Times New Roman" , Serif;
+}
+
+.fontComicSans {
+    font-family: "Comic Sans MS" , Serif;
+}

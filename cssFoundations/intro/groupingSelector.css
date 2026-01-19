@@ -1,0 +1,12 @@
+.read ,
+.unread {
+    background-color: black;
+}
+
+.read {
+    color: red;
+}
+
+.unread {
+    color: blue;
+}
